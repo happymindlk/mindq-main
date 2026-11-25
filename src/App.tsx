@@ -1,10 +1,10 @@
 import { BrowserRouter } from 'react-router-dom';
-import DemoARoutes from './demos/demo-a/routes';
+import DemoBRoutes from './demos/demo-b/routes';
 
 export default function App() {
   return (
     <BrowserRouter>
-      <DemoARoutes />
+      <DemoBRoutes />
     </BrowserRouter>
   );
 }
